@@ -1,4 +1,5 @@
 const form = document.getElementById('form-submit')
+const message = document.getElementById('title')
 
 form.addEventListener('submit', function(event){
   event.preventDefault()
@@ -6,8 +7,8 @@ form.addEventListener('submit', function(event){
   let input2 = document.getElementById('campoB')
 
   if(input2.valueAsNumber>input1.valueAsNumber) {
-    alert('Seu formulário está correto')
+    message.innerHTML = 'Tudo certo!'
   } else {
-    alert('Corrija seu formulário')
+    message.innerHTML = 'Corrija seu formulário'
   }
 })

@@ -16,11 +16,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-div {
-  display: flex;
-  gap: 100px;
-}
-
 h1 {
   font-size: 40px;
   font-weight: bold;
@@ -61,4 +56,3 @@ button:hover {
   background-color: #76b7e2;
   cursor: pointer;
 }
-
