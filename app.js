@@ -8,7 +8,9 @@ form.addEventListener('submit', function(event){
 
   if(input2.valueAsNumber>input1.valueAsNumber) {
     message.innerHTML = 'Tudo certo!'
+    message.setAttribute('class', 'correct');
   } else {
     message.innerHTML = 'Corrija seu formulário'
+    message.setAttribute('class', 'error');
   }
 })

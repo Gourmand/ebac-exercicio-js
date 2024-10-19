@@ -56,3 +56,15 @@ button:hover {
   background-color: #76b7e2;
   cursor: pointer;
 }
+
+.correct {
+  background-color: green;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.error {
+  background-color: red;
+  border-radius: 10px;
+  padding: 10px;
+}
